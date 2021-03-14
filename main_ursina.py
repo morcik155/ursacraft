@@ -16,178 +16,42 @@ lands = {
 
 def do_ls():
     global andesite
-    ls = [[[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)]
-           ],
-          [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)]
-           ],
-          [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)]
-           ],
-          [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)]
-           ],
-          [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)]
-           ],
-          [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)]
-           ],
-          [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)]
-           ],
-          [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)],
-           [andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1), andesite,
-            random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)]
-           ],
-          [[andesite] * 10] * 10,
-          [['grass_all'] * 10] * 10]
+    ls = [
+        [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)] * 2] * 10,
+        [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)] * 2] * 10,
+        [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)] * 2] * 10,
+        [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)] * 2] * 10,
+        [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)] * 2] * 10,
+        [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)] * 2] * 10,
+        [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)] * 2] * 10,
+        [[andesite, random.choice(ls1), random.choice(ls1), random.choice(ls1), random.choice(ls1)] * 2] * 10,
+        [[andesite] * 10] * 10,
+        [['grass_all'] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10,
+        [[0] * 10] * 10]
     return ls
 
+
+postavlenye_bloku = []
 
 asas = 5
 aaa = '12121'
@@ -199,22 +63,30 @@ for i in range(len(ls)):
 punch_sound = Audio('assets/stone3', loop=False, autoplay=False)
 Light(tupe='ambient', color=(0.5, 0.5, 0.5, 1))
 Light(tupe='directional', color=(0.5, 0.5, 0.5, 1), direction=(1, 1, 1))
-player = FirstPersonController(y=10)
+player = FirstPersonController(y=20)
 b = 1
 cnt = 0
 sky_texture = load_texture('assets/skybox.png')
 arm_texture = load_texture('assets/arm_texture.png')
 window.fps_counter.enabled = False
 window.exit_button.visible = False
+# window.fullscreen = True
 
 def update():
     global b, cnt, asas
     for q in obg:
-        q.rotation_y += time.dt + 50
+        q.rotation_y += 16
     if held_keys['left mouse'] or held_keys['right mouse']:
         hand.active()
     else:
         hand.passive()
+    print(player.position)
+    for w in range(len(postavlenye_bloku)):
+        print(postavlenye_bloku[w].position)
+        if postavlenye_bloku[w].texture == 'crafting_table':
+            if int(postavlenye_bloku[w].position[2]) == int(player.position[2]):
+                print(12121212)
+
 
 class Voxel(Button):
     def __init__(self, position2=(0, 0, 0), texture2=aaa, model2='cube', scale=1.0):
@@ -234,10 +106,14 @@ class Voxel(Button):
         if self.hovered:
             if key == 'right mouse down':
                 punch_sound.play()
-                if ls[y][x - (10 * i)][z] == 'grass_all' or ls[y][x - (10 * i)][z] == 'drn':
+                if ls[y][x - (10 * i)][z] == 'grass_all' or ls[y][x - (10 * i)][z] == 'drn'  or aaa == 'crafting_table':
                     voxel = Voxel(position2=self.position + mouse.normal, texture2=aaa, model2='block', scale=0.5)
+                    postavlenye_bloku.append(voxel)
                 else:
                     voxel = Voxel(position2=self.position + mouse.normal, texture2=aaa)
+                    postavlenye_bloku.append(voxel)
+
+
             if key == 'left mouse down':
                 punch_sound.play()
                 destroy(self)
@@ -249,10 +125,18 @@ class Voxel(Button):
                 aaa = andesite
             elif key == '4':
                 aaa = '12121'
+            if key == '5':
+                aaa = 'crafting_table'
             if key == 'q':
-                obg.append(Entity(model='cube', texture=aaa,
-                                  rotation=(0, 0, 0),
-                                  position=(self.position[0], self.position[1] + 0.5, self.position[2]), scale=0.2))
+                if aaa == 'grass_all' or aaa == 'drn' or aaa == 'crafting_table':
+                    obg.append(Entity(model='block', texture=aaa,
+                                      rotation=(0, 0, 0),
+                                      position=(self.position[0], self.position[1] + 0.5, self.position[2]), scale=0.1))
+                else:
+                    obg.append(Entity(model='cube', texture=aaa,
+                                      rotation=(0, 0, 0),
+                                      position=(self.position[0], self.position[1] + 0.5, self.position[2]), scale=0.2))
+
             for s in range(len(obg)):
                 if int(player.position[0]) == int(obg[s].position[0]) and int(player.position[1]) == int(
                         obg[s].position[1]) and int(player.position[2]) == int(obg[s].position[2]):
@@ -292,27 +176,27 @@ class Hand(Entity):
 # создаём платформу
 for z in range(10):
     for x in range(10):
-        for y in range(10):
-            if ls[y][x][z] == 'grass_all' or ls[y][x][z] == 'drn':
-                voxel = Voxel(position2=(x, float(y) - 0.25, z), texture2=ls[y][x][z], model2='block', scale=0.5)
-            else:
-                voxel = Voxel(position2=(x, y, z), texture2=ls[y][x][z])
+        for y in range(30):
+            if ls[y][x][z] != 0:
+                if ls[y][x][z] == 'grass_all' or ls[y][x][z] == 'drn' or ls[y][x][z] == 'crafting_table':
+                    voxel = Voxel(position2=(x, float(y) - 0.25, z), texture2=ls[y][x][z], model2='block', scale=0.5)
+                else:
+                    voxel = Voxel(position2=(x, y, z), texture2=ls[y][x][z])
 
 
 for i in range(1, 2):
     ls = do_ls()
     for z in range(10):
         for x in range(10, 10 + (10 * i)):
-            for y in range(10):
-                if ls[y][x - (10 * i)][z] == 'grass_all' or ls[y][x - (10 * i)][z] == 'drn':
-                    voxel = Voxel(position2=(x, float(y) - 0.25, z), texture2=ls[y][x - (10 * i)][z], model2='block', scale=0.5)
-                else:
-                    voxel = Voxel(position2=(x, y, z), texture2=ls[y][x - (10 * i)][z])
+            for y in range(30):
+                if ls[y][x - (10 * i)][z] != 0:
+                    if ls[y][x - (10 * i)][z] == 'grass_all' or ls[y][x - (10 * i)][z] == 'drn' or ls[y][x - (10 * i)][z] == 'crafting_table':
+                        voxel = Voxel(position2=(x, float(y) - 0.25, z), texture2=ls[y][x - (10 * i)][z], model2='block', scale=0.5)
+                    else:
+                        voxel = Voxel(position2=(x, y, z), texture2=ls[y][x - (10 * i)][z])
 
 sky = Sky()
 hand = Hand()
 
 app.run()
-
-
 
